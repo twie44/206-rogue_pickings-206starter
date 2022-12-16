@@ -28,8 +28,7 @@ h3 {
 }
 h1 {
 	font-size: 1.875em;
-	border-bottom: 3px solid #77a466;
-
+	
 }
 h2 {
 	font-size: 1.125em;
@@ -46,17 +45,17 @@ p {
 
 /*The widths are in a percentage!*/
 header {
-	border-bottom: 3px solid #77a466;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-flow: column wrap;
-	width: 33%;
+	width: 100%;
 }
 
 header h1 {
 	margin: 0;
 	padding: 38px 0;
+	text-align: center;
 }
 header h1 span {
 	color: #77a466;
@@ -64,6 +63,9 @@ header h1 span {
 
 header nav {
 	padding: 46px 0;
+	width: 100%;
+	border-top: 3px solid #77a466;
+
 }
 header nav ul {
 	margin: 0;
@@ -75,8 +77,9 @@ header nav ul li {
 	font-size: 0.875em;
 	padding: 15px 5px;
 	list-style-type:none;
+	text-align: center;
 }
-header nav ul li a{
+header nav ul li a {
 	text-decoration: none;
 	color:#77a466;
 }
@@ -89,6 +92,7 @@ header nav ul li a{
 	align-items: center;
 	flex-flow: column;
 	flex-direction: row wrap;
+	width: 100%;
 	}
 
 .main-image {
@@ -98,31 +102,31 @@ header nav ul li a{
 	
 }
 .main-image img {
-	width: 33%;
+	border-top: 3px solid #77a466;
 	border-bottom: 3px solid #77a466;
 }
 
 .main-title {
-	width: 33%;
+	
 		
 }
 .main-title h2 {
 	text-align: left;
 	padding: 5px 0;
 	color: #77a466;
-	width: 90%;
-}
+	
+	}
+
 .main-title p {
 	padding: 0;
 	font-size: 1em;
 	line-height: 25px;
-	width: 90%;
-}
+	}
 
 .section-one,
 .section-two,
 .section-three {
-	width: 33%;
+	width: 100%;
 	border-top: 1px solid #eee;
 
 }
@@ -168,7 +172,7 @@ footer {
 	justify-content: center;
 	align-items: center;
 	flex-flow: row wrap;
-	width: 33%;
+	width: 100%;
 }
 footer span {
 	font-family: 'Galada', cursive;
